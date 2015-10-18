@@ -1,0 +1,9 @@
+<?php require 'application/layouts/header.phtml'; ?>
+
+<form method="post" action="/index.php?controller=cadenas&action=<?php echo $action; ?>">
+    <input type="text" name="cad1"><br>
+    <input type="text" name="cad2"><br>
+    <input type="submit" value="Mostra">
+</form>
+
+<?php require 'application/layouts/footer.phtml'; ?>
